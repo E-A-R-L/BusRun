@@ -5,6 +5,24 @@
     <string name="second_fragment_label">Second Fragment</string>
     <string name="next">Next</string>
     <string name="previous">Previous</string>
+    <string name="credits">
+    Art/ Assets:
+    https://dantepixels.itch.io/small-fruits-asset-16x16\n
+    https://btl-games.itch.io/trash-and-junk-asset-pack\n
+    https://waterscreate.itch.io/city-background-parallax\n
+    https://dai420.itch.io/public-bus\n
+    https://www.kenney.nl/assets/platformer-characters\n
+    https://fonts.google.com/share?selection.family=Jaro:opsz@6..72\n
+    https://opengameart.org/content/jump-sound-16bit\n
+    https://pixabay.com//?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=music&amp;utm_content=9271\n\n
+
+    Tutorials/ Reference Videos:\n
+    https://www.youtube.com/watch?v=XtQMytORBmM&amp;t=1541s&amp;ab_channel=GameMaker%27sToolkit\n
+    https://www.youtube.com/watch?v=hKGzSYXPQwY&amp;ab_channel=SasquatchBStudios\n
+    https://www.youtube.com/watch?v=W9aVuOsc_k0&amp;ab_channel=BluefeverSoftware\n
+    https://www.youtube.com/watch?v>K4uOjb5p3Io&amp;ab_channel=CocoCode\n
+</string>
+
 
     <string-array name="leaderboard">
         <item>1. ShadowSniper101</item>
@@ -107,5 +125,10 @@
         <item>98. IronWraith</item>
         <item>99. MysticNova</item>
         <item>100. ShadowCrusher</item>
+    </string-array>
+    <string-array name="graphics">
+        <item>low</item>
+        <item>medium</item>
+        <item>high</item>
     </string-array>
 </resources>

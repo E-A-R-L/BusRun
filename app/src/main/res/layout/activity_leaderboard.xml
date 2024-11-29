@@ -5,7 +5,8 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Leaderboard">
+    tools:context=".Leaderboard"
+    android:background="@drawable/evening">
 
     <View
         android:id="@+id/view2"
@@ -19,13 +20,14 @@
 
     <Button
         android:id="@+id/lb_back_btn"
-        android:layout_width="86dp"
-        android:layout_height="68dp"
+        android:layout_width="93dp"
+        android:layout_height="67dp"
         android:layout_marginBottom="48dp"
+        android:backgroundTint="@color/green"
         android:text="Back"
         app:layout_constraintBottom_toBottomOf="@+id/view2"
         app:layout_constraintEnd_toEndOf="@+id/view2"
-        app:layout_constraintHorizontal_bias="0.974"
+        app:layout_constraintHorizontal_bias="0.983"
         app:layout_constraintStart_toStartOf="@+id/view2"
         app:layout_constraintTop_toTopOf="@+id/view2"
         app:layout_constraintVertical_bias="1.0" />
@@ -34,7 +36,9 @@
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed-medium"
         android:text="LeaderBoard"
+        android:textColor="@color/black"
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="@+id/view2"
         app:layout_constraintEnd_toEndOf="@+id/view2"
@@ -44,6 +48,7 @@
         app:layout_constraintVertical_bias="0.016" />
 
     <ListView
+        android:background="@color/off_white"
         android:id="@+id/listView"
         android:layout_width="463dp"
         android:layout_height="280dp"
