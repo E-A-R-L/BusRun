@@ -3,35 +3,34 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
     tools:context=".lvls">
 
     <LinearLayout
-        android:layout_width="match_parent"
-        android:id="@+id/background_line"
-        android:layout_height="180dp"
-
-        android:padding="12dp"
-        android:orientation="horizontal">
-
+        android:layout_width="557dp"
+        android:layout_height="165dp"
+        android:background="@color/black"
+        android:orientation="horizontal"
+        android:padding="12dp">
 
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:orientation="vertical"
-            android:gravity="center">
+            android:background="@color/off_white"
+            android:gravity="center"
+            android:orientation="vertical">
 
 
             <TextView
                 android:id="@+id/title_text"
-                android:layout_width="320dp"
-                android:layout_height="66dp"
-                android:layout_marginRight="180dp"
+                android:layout_width="344dp"
+                android:layout_height="63dp"
+                android:layout_marginRight="90dp"
                 android:layout_marginBottom="32dp"
-                android:textSize="50sp"
-                android:hint="title"></TextView>
+                android:hint="title"
+                android:textSize="30sp"></TextView>
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -43,21 +42,25 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     app:srcCompat="@android:drawable/btn_star" />
+
                 <ImageView
                     android:id="@+id/imageView3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     app:srcCompat="@android:drawable/btn_star" />
+
                 <ImageView
                     android:id="@+id/imageView4"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     app:srcCompat="@android:drawable/btn_star" />
+
                 <ImageView
                     android:id="@+id/imageView5"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     app:srcCompat="@android:drawable/btn_star" />
+
                 <ImageView
                     android:id="@+id/imageView6"
                     android:layout_width="wrap_content"

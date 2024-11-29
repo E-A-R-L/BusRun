@@ -16,14 +16,14 @@
             android:name=".lvls"
             android:exported="false" />
         <activity
-            android:name=".signup"
+            android:name=".Signup"
             android:exported="false" />
         <activity
             android:name=".options"
             android:exported="false"
             android:theme="@style/Theme.BusRun" />
         <activity
-            android:name=".leaderboard"
+            android:name=".Leaderboard"
             android:exported="false" />
         <activity
             android:name=".level_select"

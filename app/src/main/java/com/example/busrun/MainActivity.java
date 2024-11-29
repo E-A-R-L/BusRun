@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.Toast;
 
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -33,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
         signup.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent sign = new Intent(MainActivity.this,com.example.busrun.signup.class);
+                Intent sign = new Intent(MainActivity.this, Signup.class);
                 startActivity(sign);
 
             }
@@ -44,19 +45,22 @@ public class MainActivity extends AppCompatActivity {
 
                 String user = usr_txt.getText().toString();
 
-                Intent log = new Intent(MainActivity.this, Menu.class);
-                log.putExtra("user", user);
-                startActivity(log);
-
+                if (usr_txt.getText().toString().equals(""))
+                {
+                    Toast.makeText(MainActivity.this, "user Name required", Toast.LENGTH_SHORT).show();
+                }
+                else if (pass_txt.getText().toString().equals(""))
+                {
+                    Toast.makeText(MainActivity.this, "PassWord required", Toast.LENGTH_SHORT).show();
+                }
+                else
+                {
+                    Intent log = new Intent(MainActivity.this, Menu.class);
+                    log.putExtra("user", user);
+                    startActivity(log);
+                }
             }
         });
-
-
-
-
-
-
-
 
     }
 }

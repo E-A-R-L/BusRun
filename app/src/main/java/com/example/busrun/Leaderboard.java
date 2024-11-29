@@ -6,13 +6,9 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ListView;
 
-import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.graphics.Insets;
-import androidx.core.view.ViewCompat;
-import androidx.core.view.WindowInsetsCompat;
 
-public class leaderboard extends AppCompatActivity {
+public class Leaderboard extends AppCompatActivity {
 
     Button back;
 
@@ -29,7 +25,7 @@ public class leaderboard extends AppCompatActivity {
         back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent goback = new Intent(leaderboard.this, android.R.menu.class);
+                Intent goback = new Intent(Leaderboard.this, android.R.menu.class);
                 startActivity(goback);
             }
         });
